@@ -9,24 +9,23 @@
     android:gravity="center"
     android:background="#C6C6C6"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".UI.MainActivity">
 
-
+    <!--    #85EDE3-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/t1"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:text="@string/currency_converter"
             android:textColor="#252525"
             android:textSize="36sp"
-            android:textStyle="bold"
-            android:gravity="center_horizontal" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -39,7 +38,7 @@
 
         <TextView
             android:id="@+id/mainm"
-            android:layout_width="95dp"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="@string/value"
             android:background="@drawable/mainb"
@@ -52,12 +51,12 @@
             android:id="@+id/e"
             android:layout_width="145dp"
             android:layout_height="40dp"
-            android:textSize="16sp"
-            android:textColor="#C6C6C6"
-            android:hint="Enter here"
-            android:textColorHint="#434343"
             android:background="@drawable/entryxx"
-            android:textStyle="bold"/>
+            android:hint="Enter here ->"
+            android:textColor="#C6C6C6"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -69,7 +68,7 @@
 
         <TextView
             android:id="@+id/form1"
-            android:layout_width="85dp"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="@string/from"
             android:background="@drawable/mainb"
@@ -94,14 +93,15 @@
 
         <TextView
             android:id="@+id/form2"
-            android:layout_width="65dp"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="@string/to"
             android:textColor="#252525"
             android:layout_marginRight="10dp"
             android:background="@drawable/mainb"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
         <Spinner
             android:id="@+id/s2"

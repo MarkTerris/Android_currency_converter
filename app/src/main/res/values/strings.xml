@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Converter</string>
     <string name="to">TO</string>
     <string name="from">FROM</string>
     <string name="value">VALUE:</string>
@@ -8,5 +8,8 @@
     <string-array name="currency">
         <item>USD</item>
         <item>RUB</item>
+        <item>EUR</item>
+        <item>GBP</item>
     </string-array>
+    <string name="Error"></string>
 </resources>
