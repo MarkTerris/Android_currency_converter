@@ -53,7 +53,10 @@
             android:layout_width="145dp"
             android:layout_height="40dp"
             android:textSize="16sp"
-            android:background="@drawable/entryb"
+            android:textColor="#C6C6C6"
+            android:hint="Enter here"
+            android:textColorHint="#434343"
+            android:background="@drawable/entryxx"
             android:textStyle="bold"/>
 
     </LinearLayout>
@@ -70,7 +73,7 @@
             android:layout_height="40dp"
             android:text="@string/from"
             android:background="@drawable/mainb"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="10dp"
             android:textColor="#252525"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -91,11 +94,11 @@
 
         <TextView
             android:id="@+id/form2"
-            android:layout_width="85dp"
+            android:layout_width="65dp"
             android:layout_height="40dp"
             android:text="@string/to"
             android:textColor="#252525"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/mainb"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -118,7 +121,7 @@
             android:id="@+id/but"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/mainb"
+            android:background="@drawable/button"
             android:text="@string/convert"
             android:textColor="#252525"
             android:textSize="26sp"
